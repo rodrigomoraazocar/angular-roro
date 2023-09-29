@@ -1,0 +1,58 @@
+ //a. para o titulo e defina um tom escuro de fundo e altere o color para um tom claro
+
+ //h1{
+   // background-color: black; // altera o fundo
+    //color: white; // altera a cor das letras
+  //}
+ // Seu nome deve estar com uma font-family diferente
+ //h3{
+   //  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ //}
+ 
+ // Crie um design para o botão
+ //button{
+  //  border-radius: 16px; // deixa as bordas arredondadas
+  //   width: 100px;
+  //   height: 3vh;
+  //   border: none;
+ //}
+ // ao passar o cursor o cursor por cima
+ // é a alteração que deve ocorrer
+ button:hover {
+     background-color: rgb(199, 158, 108);
+ }
+ 
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e6fdf;
+    padding: 10px;
+}
+.logo {
+    width: 185px;
+    height: 150px;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.buttons button {
+    background-color: #af17a8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ 
+ 
+ 
+ 
+ 
+ 
