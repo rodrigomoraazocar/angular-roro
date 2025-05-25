@@ -1,27 +1,52 @@
-# RodrigoMora
+# rodrigo-mora
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+## Descrição
 
-## Development server
+Esta é uma aplicação Angular, possivelmente relacionada ao "Javeiros Rock & Café". Serve como um projeto pessoal ou portfólio para Rodrigo Mora.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Funcionalidades Principais
 
-## Code scaffolding
+*   **Mensagem de Boas-vindas:** Exibe a mensagem: "Olá sejam bem-vindos a Javeiros Rock & Café".
+*   **Funções de Cálculo:**
+    *   Cálculo de média entre valores.
+    *   Manipulação de strings (exemplos: concatenação, verificação de tamanho).
+    *   Cálculo de juros compostos.
+*   **Botões de Navegação (Placeholders):**
+    *   Cadastrar Produto
+    *   Página de Início
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Como Iniciar
 
-## Build
+### Pré-requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Certifique-se de ter o Node.js e o Angular CLI instalados globalmente.
 
-## Running unit tests
+### Instalação e Execução
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1.  **Clone o repositório (se aplicável):**
+    ```bash
+    git clone <url-do-repositorio>
+    cd rodrigo-mora
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+3.  **Execute o servidor de desenvolvimento:**
+    ```bash
+    ng serve
+    ```
+    Navegue para `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos de origem.
 
-## Running end-to-end tests
+4.  **Compile o projeto (Build):**
+    ```bash
+    ng build
+    ```
+    Os artefatos da compilação serão armazenados no diretório `dist/`. Use a flag `--prod` para um build de produção.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Tecnologias Utilizadas
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+*   Angular
+*   TypeScript
+*   HTML
+*   SCSS
